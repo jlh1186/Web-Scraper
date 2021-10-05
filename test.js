@@ -20,6 +20,7 @@ axios(url)
           })
        })
        console.log(articles[2])
+        alert('Complete')
     }).catch(err => console.log(err))
 
 app.listen(PORT, () => console.log('Server Running on PORT:',PORT))
