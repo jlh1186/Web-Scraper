@@ -21,7 +21,7 @@ axios(url)
        })
        console.log(articles[2])
         console.log('Complete')
-        abort()
+        process.exit()
     }).catch(err => console.log(err))
 
 app.listen(PORT, () => console.log('Server Running on PORT:',PORT))
