@@ -30,5 +30,6 @@ jobs:
     - run: npm install axios
     - run: npm install cheerio
     - run: npm install express
+    - run: npm install -g nodemon
     - run: npm run build --if-present
     - run: npm run start
